@@ -1,0 +1,243 @@
+<div class="picker _ngcontent-INVENTORY-83">
+    <!---->
+    <header class="_ngcontent-INVENTORY-83">
+        <!---->
+        <!---->
+        <material-picker-search class="_ngcontent-INVENTORY-83 _nghost-INVENTORY-87">
+            <!---->
+            <div buttondecorator="" class="search-placeholder _ngcontent-INVENTORY-87" keyboardonlyfocusindicator=""
+                role="textbox" aria-label="検索" tabindex="0" aria-disabled="false">検索</div>
+            <!---->
+            <!---->
+            <material-icon buttondecorator="" icon="search" keyboardonlyfocusindicator=""
+                class="_ngcontent-INVENTORY-87 _nghost-INVENTORY-3" aria-label="検索" tabindex="0" role="button"
+                aria-disabled="false"><i aria-hidden="true"
+                    class="material-icon-i material-icons-extended _ngcontent-INVENTORY-3">search</i></material-icon>
+            <!---->
+        </material-picker-search>
+    </header>
+    <material-picker-lobby class="_ngcontent-INVENTORY-83 _nghost-INVENTORY-86">
+        <!---->
+        <!---->
+        <div class="lobby-content _ngcontent-INVENTORY-86">
+            <div class="content _ngcontent-INVENTORY-83">
+                <material-picker-section class="_ngcontent-INVENTORY-82 _nghost-INVENTORY-84">
+                    <!----><span class="_ngcontent-INVENTORY-84">
+                        <!---->
+                        <!---->
+                        <div class="content _ngcontent-INVENTORY-84">
+                            <!---->
+                            <material-picker-item class="_ngcontent-INVENTORY-82 _nghost-INVENTORY-88">
+                                <div class="item _ngcontent-INVENTORY-88">
+                                    <!---->
+                                    <material-checkbox class="themeable _nghost-INVENTORY-20 _ngcontent-INVENTORY-88"
+                                        buttondecorator="" aria-checked="false"
+                                        aria-labelledby="aE49EE06E-4E5F-4B12-89B8-322DB4090256--0" tabindex="0"
+                                        role="checkbox" aria-disabled="false">
+                                        <div class="icon-container _ngcontent-INVENTORY-20" aria-hidden="true">
+                                            <material-icon class="icon _ngcontent-INVENTORY-20 _nghost-INVENTORY-3"><i
+                                                    aria-hidden="true"
+                                                    class="material-icon-i material-icons-extended _ngcontent-INVENTORY-3">check_box_outline_blank</i>
+                                            </material-icon>
+                                            <!---->
+                                            <material-ripple class="ripple _ngcontent-INVENTORY-20"></material-ripple>
+                                        </div>
+                                        <div class="content _ngcontent-INVENTORY-20"> </div>
+                                    </material-checkbox>
+                                    <div buttondecorator="" class="content _ngcontent-INVENTORY-88"
+                                        keyboardonlyfocusindicator="" id="aE49EE06E-4E5F-4B12-89B8-322DB4090256--0"
+                                        tabindex="0" role="button" aria-disabled="false">
+                                        <!---->アート、エンターテインメント</div>
+                                    <!---->
+                                    <material-button animated="true"
+                                        class="zippy _ngcontent-INVENTORY-88 _nghost-INVENTORY-13" icon=""
+                                        aria-label="項目を展開する" tabindex="0" role="button" aria-disabled="false"
+                                        elevation="1">
+                                        <div class="content _ngcontent-INVENTORY-13">
+                                            <material-icon class="_ngcontent-INVENTORY-88 _nghost-INVENTORY-3"><i
+                                                    aria-hidden="true"
+                                                    class="material-icon-i material-icons-extended _ngcontent-INVENTORY-3">expand_more</i>
+                                            </material-icon>
+                                        </div>
+                                        <material-ripple aria-hidden="true" class="_ngcontent-INVENTORY-13">
+                                        </material-ripple>
+                                    </material-button>
+                                </div>
+                                <!---->
+                                <!---->
+                            </material-picker-item>
+                            <material-picker-item class="_ngcontent-INVENTORY-82 _nghost-INVENTORY-88">
+                                <div class="item _ngcontent-INVENTORY-88">
+                                    <!---->
+                                    <material-checkbox class="themeable _nghost-INVENTORY-20 _ngcontent-INVENTORY-88"
+                                        buttondecorator="" aria-checked="false"
+                                        aria-labelledby="aC77DD706-62A7-42E9-8B21-2A0FA30C94AE--0" tabindex="0"
+                                        role="checkbox" aria-disabled="false">
+                                        <div class="icon-container _ngcontent-INVENTORY-20" aria-hidden="true">
+                                            <material-icon class="icon _ngcontent-INVENTORY-20 _nghost-INVENTORY-3"><i
+                                                    aria-hidden="true"
+                                                    class="material-icon-i material-icons-extended _ngcontent-INVENTORY-3">check_box_outline_blank</i>
+                                            </material-icon>
+                                            <!---->
+                                            <material-ripple class="ripple _ngcontent-INVENTORY-20"></material-ripple>
+                                        </div>
+                                        <div class="content _ngcontent-INVENTORY-20"> </div>
+                                    </material-checkbox>
+                                    <div buttondecorator="" class="content _ngcontent-INVENTORY-88"
+                                        keyboardonlyfocusindicator="" id="aC77DD706-62A7-42E9-8B21-2A0FA30C94AE--0"
+                                        tabindex="0" role="button" aria-disabled="false">
+                                        <!---->アパレル</div>
+                                    <!---->
+                                    <material-button animated="true"
+                                        class="zippy _ngcontent-INVENTORY-88 _nghost-INVENTORY-13" icon=""
+                                        aria-label="項目を展開する" tabindex="0" role="button" aria-disabled="false"
+                                        elevation="1">
+                                        <div class="content _ngcontent-INVENTORY-13">
+                                            <material-icon class="_ngcontent-INVENTORY-88 _nghost-INVENTORY-3"><i
+                                                    aria-hidden="true"
+                                                    class="material-icon-i material-icons-extended _ngcontent-INVENTORY-3">expand_more</i>
+                                            </material-icon>
+                                        </div>
+                                        <material-ripple aria-hidden="true" class="_ngcontent-INVENTORY-13">
+                                        </material-ripple>
+                                    </material-button>
+                                </div>
+                                <!---->
+                                <!---->
+                            </material-picker-item>
+                            <material-picker-item class="_ngcontent-INVENTORY-82 _nghost-INVENTORY-88">
+                                <div class="item _ngcontent-INVENTORY-88">
+                                    <!---->
+                                    <material-checkbox class="themeable _nghost-INVENTORY-20 _ngcontent-INVENTORY-88"
+                                        buttondecorator="" aria-checked="false"
+                                        aria-labelledby="a487EEE37-C498-4DA4-9BC0-AD133BC636B6--0" tabindex="0"
+                                        role="checkbox" aria-disabled="false">
+                                        <div class="icon-container _ngcontent-INVENTORY-20" aria-hidden="true">
+                                            <material-icon class="icon _ngcontent-INVENTORY-20 _nghost-INVENTORY-3"><i
+                                                    aria-hidden="true"
+                                                    class="material-icon-i material-icons-extended _ngcontent-INVENTORY-3">check_box_outline_blank</i>
+                                            </material-icon>
+                                            <!---->
+                                            <material-ripple class="ripple _ngcontent-INVENTORY-20"></material-ripple>
+                                        </div>
+                                        <div class="content _ngcontent-INVENTORY-20"> </div>
+                                    </material-checkbox>
+                                    <div buttondecorator="" class="content _ngcontent-INVENTORY-88"
+                                        keyboardonlyfocusindicator="" id="a487EEE37-C498-4DA4-9BC0-AD133BC636B6--0"
+                                        tabindex="0" role="button" aria-disabled="false">
+                                        <!---->インターネット、通信事業</div>
+                                    <!---->
+                                    <material-button animated="true"
+                                        class="zippy _ngcontent-INVENTORY-88 _nghost-INVENTORY-13" icon=""
+                                        aria-label="項目を展開する" tabindex="0" role="button" aria-disabled="false"
+                                        elevation="1">
+                                        <div class="content _ngcontent-INVENTORY-13">
+                                            <material-icon class="_ngcontent-INVENTORY-88 _nghost-INVENTORY-3"><i
+                                                    aria-hidden="true"
+                                                    class="material-icon-i material-icons-extended _ngcontent-INVENTORY-3">expand_more</i>
+                                            </material-icon>
+                                        </div>
+                                        <material-ripple aria-hidden="true" class="_ngcontent-INVENTORY-13">
+                                        </material-ripple>
+                                    </material-button>
+                                </div>
+                                <!---->
+                                <!---->
+                            </material-picker-item>
+                            <material-picker-item class="_ngcontent-INVENTORY-82 _nghost-INVENTORY-88">
+                                <div class="item _ngcontent-INVENTORY-88">
+                                    <!---->
+                                    <material-checkbox class="themeable _nghost-INVENTORY-20 _ngcontent-INVENTORY-88"
+                                        buttondecorator="" aria-checked="false"
+                                        aria-labelledby="aC63F92DF-15FD-4BF9-B48F-37F82EBE515C--0" tabindex="0"
+                                        role="checkbox" aria-disabled="false">
+                                        <div class="icon-container _ngcontent-INVENTORY-20" aria-hidden="true">
+                                            <material-icon class="icon _ngcontent-INVENTORY-20 _nghost-INVENTORY-3"><i
+                                                    aria-hidden="true"
+                                                    class="material-icon-i material-icons-extended _ngcontent-INVENTORY-3">check_box_outline_blank</i>
+                                            </material-icon>
+                                            <!---->
+                                            <material-ripple class="ripple _ngcontent-INVENTORY-20"></material-ripple>
+                                        </div>
+                                        <div class="content _ngcontent-INVENTORY-20"> </div>
+                                    </material-checkbox>
+                                    <div buttondecorator="" class="content _ngcontent-INVENTORY-88"
+                                        keyboardonlyfocusindicator="" id="aC63F92DF-15FD-4BF9-B48F-37F82EBE515C--0"
+                                        tabindex="0" role="button" aria-disabled="false">
+                                        <!---->スポーツ、フィットネス</div>
+                                    <!---->
+                                    <material-button animated="true"
+                                        class="zippy _ngcontent-INVENTORY-88 _nghost-INVENTORY-13" icon=""
+                                        aria-label="項目を展開する" tabindex="0" role="button" aria-disabled="false"
+                                        elevation="1">
+                                        <div class="content _ngcontent-INVENTORY-13">
+                                            <material-icon class="_ngcontent-INVENTORY-88 _nghost-INVENTORY-3"><i
+                                                    aria-hidden="true"
+                                                    class="material-icon-i material-icons-extended _ngcontent-INVENTORY-3">expand_more</i>
+                                            </material-icon>
+                                        </div>
+                                        <material-ripple aria-hidden="true" class="_ngcontent-INVENTORY-13">
+                                        </material-ripple>
+                                    </material-button>
+                                </div>
+                                <!---->
+                                <!---->
+                            </material-picker-item>
+                            <material-picker-item class="_ngcontent-INVENTORY-82 _nghost-INVENTORY-88">
+                                <div class="item _ngcontent-INVENTORY-88">
+                                    <!---->
+                                    <material-checkbox class="themeable _nghost-INVENTORY-20 _ngcontent-INVENTORY-88"
+                                        buttondecorator="" aria-checked="false"
+                                        aria-labelledby="a5B07293D-2327-44B6-9790-348E3724EFCE--0" tabindex="0"
+                                        role="checkbox" aria-disabled="false">
+                                        <div class="icon-container _ngcontent-INVENTORY-20" aria-hidden="true">
+                                            <material-icon class="icon _ngcontent-INVENTORY-20 _nghost-INVENTORY-3"><i
+                                                    aria-hidden="true"
+                                                    class="material-icon-i material-icons-extended _ngcontent-INVENTORY-3">check_box_outline_blank</i>
+                                            </material-icon>
+                                            <!---->
+                                            <material-ripple class="ripple _ngcontent-INVENTORY-20"></material-ripple>
+                                        </div>
+                                        <div class="content _ngcontent-INVENTORY-20"> </div>
+                                    </material-checkbox>
+                                    <div buttondecorator="" class="content _ngcontent-INVENTORY-88"
+                                        keyboardonlyfocusindicator="" id="a5B07293D-2327-44B6-9790-348E3724EFCE--0"
+                                        tabindex="0" role="button" aria-disabled="false">
+                                        <!---->ニュース、書籍、出版物</div>
+                                    <!---->
+                                    <material-button animated="true"
+                                        class="zippy _ngcontent-INVENTORY-88 _nghost-INVENTORY-13" icon=""
+                                        aria-label="項目を展開する" tabindex="0" role="button" aria-disabled="false"
+                                        elevation="1">
+                                        <div class="content _ngcontent-INVENTORY-13">
+                                            <material-icon class="_ngcontent-INVENTORY-88 _nghost-INVENTORY-3"><i
+                                                    aria-hidden="true"
+                                                    class="material-icon-i material-icons-extended _ngcontent-INVENTORY-3">expand_more</i>
+                                            </material-icon>
+                                        </div>
+                                        <material-ripple aria-hidden="true" class="_ngcontent-INVENTORY-13">
+                                        </material-ripple>
+                                    </material-button>
+                                </div>
+                                <!---->
+                                <!---->
+                            </material-picker-item>
+                            <material-picker-item class="_ngcontent-INVENTORY-82 _nghost-INVENTORY-88">
+                                <div class="item _ngcontent-INVENTORY-88">
+                                    <!---->
+                                    <material-checkbox class="themeable _nghost-INVENTORY-20 _ngcontent-INVENTORY-88"
+                                        buttondecorator="" aria-checked="false"
+                                        aria-labelledby="aDA7F2A8F-47EF-4B42-9B93-75C4EF1F8F47--0" tabindex="0"
+                                        role="checkbox" aria-disabled="false">
+                                        <div class="icon-container _ngcontent-INVENTORY-20" aria-hidden="true">
+                                            <material-icon class="icon _ngcontent-INVENTORY-20 _nghost-INVENTORY-3"><i
+                                                    aria-hidden="true"
+                                                    class="material-icon-i material-icons-extended _ngcontent-INVENTORY-3">check_box_outline_blank</i>
+                                            </material-icon>
+                                            <!---->
+                                            <material-ripple class="ripple _ngcontent-INVENTORY-20"></material-ripple>
+                                        </div>
+                                        <div class="content _ngcontent-INVENTORY-20"> </div>
+                                    </material-checkbox>
+                                    <div buttondecorator="" class="content _ngcontent-INVENTORY-88"
+                                        keyboardonlyfocusindicator="" id="aDA7F2A8F-47EF-4B42-9B93-75CÏ
