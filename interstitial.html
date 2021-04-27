@@ -25,7 +25,7 @@
       window.googletag = window.googletag || {cmd: []};
 
       // GPT ad slots
-      var interstitialSlot, staticSlot;
+      var interstitialSlot;
 
       googletag.cmd.push(function() {
         // Define a web interstitial ad slot.
@@ -33,14 +33,10 @@
             '/21720472111/interstitialads',
             googletag.enums.OutOfPageFormat.INTERSTITIAL).addService(googletag.pubads());
 
-        // Define static ad slots.
-        staticSlot = googletag.defineSlot(
-            '/6355419/Travel/Europe', [100, 100], 'static-ad-1')
-          .addService(googletag.pubads());
-
         // Enable SRA and services.
         googletag.pubads().enableSingleRequest();
         googletag.enableServices();
+        googletag.display(interstitialSlot);
         localStorage.removeItem("LAST_INTERSTITIAL_TIME");
         localStorage.removeItem("__lsv__");
       });
@@ -60,12 +56,5 @@
         <a href="https://www.example.com/">TRIGGER INTERSTITIAL</a>
       </p>
     </div>
-    <script>
-        googletag.cmd.push(function() {
-          // Ensure the first call to display comes after static ad slot
-          // divs are defined.
-          googletag.display(staticSlot);
-        });
-    </script>
   </body>
 </html>
