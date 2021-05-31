@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5V6HVB4');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Anchor Ad Example</title>
+
+    <script type="text/javascript">
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        (function () {
+            var gads = document.createElement('script');
+            gads.async = true;
+            gads.type = 'text/javascript';
+            var useSSL = 'https:' == document.location.protocol;
+            gads.src = (useSSL ? 'https:' : 'http:') + '//securepubads.g.doubleclick.net/tag/js/gpt.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(gads, node);
+        })();
+    </script>
+
+    <style>
+        .title {
+            width: 50%;
+            margin: 0px auto;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            margin-top: 20px;
+        }
+    </style>
+
+    <!-- ************************* Load Demand Manger library  ******************************** -->
+
+    <script async src="https://ads.rubiconproject.com/prebid/19704_scawaii_test.js"></script>
+
+    <script>
+        var pbjs = pbjs || {};
+        pbjs.que = pbjs.que || [];
+
+        var failSafeTimeout = 3000;
+
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        googletag.cmd.push(function () {
+            googletag.pubads().enableSingleRequest();
+            // googletag.pubads().enableLazyLoad();
+            googletag.pubads().disableInitialLoad();
+            googletag.enableServices();
+        });
+
+        var GENERATOR = {
+            getAuctionCallback: function () {
+                var adserverRequestSent = false;
+                var sendAdServerRequest = function (headerBiddingSlots) {
+                    if (adserverRequestSent) return;
+                    adserverRequestSent = true;
+                    googletag.pubads().refresh(headerBiddingSlots);
+                }
+                return sendAdServerRequest;
+            }
+        };
+    </script>
+
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5V6HVB4" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <h2>Magnite Demand Manager Demo Page</h2>
+    <br>
+    <br />
+    <h2 class="title">SECTION 1</h2>
+
+    <script>
+        googletag.cmd.push(function () {
+            var slot01 = googletag.defineSlot('/117786882/scawaii/scawaii_sp_article_300x250_inread', [
+                [300, 250],
+                [336, 280]
+            ], 'ad-60b44c3897f57').addService(googletag.pubads());
+            var slot02 = googletag.defineSlot('/117786882/scawaii/scawaii_sp_pre_article_320x100_ATF', [
+                [320, 100],
+                [320, 180],
+                [300, 250],
+                [336, 280]
+            ], 'ad-60b44c3897fb9').addService(googletag.pubads());
+            var slot03 = googletag.defineSlot('/117786882/scawaii/scawaii_sp_article_1x1_movie', [1, 1],
+                'ad-60b44c389805c').addService(googletag.pubads());
+            var slot04 = googletag.defineSlot('/117786882/scawaii/scawaii_sp_article_300x250_underarticle_1st',
+                [
+                    [300, 250],
+                    [336, 280]
+                ], 'ad-60b44c38980be').addService(googletag.pubads());
+            var slot05 = googletag.defineSlot('/117786882/scawaii/scawaii_sp_pre_article_300x250_1st', [
+                [300, 250],
+                [336, 280]
+            ], 'ad-60b44c389812f').addService(googletag.pubads());
+            var slot06 = googletag.defineSlot('/117786882/scawaii/scawaii_sp_pre_article_300x250_2nd', [
+                [300, 250],
+                [336, 280]
+            ], 'ad-60b44c3898196').addService(googletag.pubads());
+            var slot07 = googletag.defineSlot('/117786882/scawaii/scawaii_sp_article_320x100_ATF', [
+                [320, 100],
+                [320, 180],
+                [300, 250],
+                [336, 280]
+            ], 'ad-60b44c38981eb').addService(googletag.pubads());
+            var slot08 = googletag.defineSlot('/117786882/scawaii/scawaii_sp_article_300x250_underarticle_2nd',
+                [
+                    [300, 250],
+                    [336, 280]
+                ], 'ad-60b44c389823a').addService(googletag.pubads());
+            googletag.pubads().refresh([slot03]);
+            var sendAdServerRequest = GENERATOR.getAuctionCallback();
+            setTimeout(function () {
+                sendAdServerRequest([slot01, slot02, slot04, slot05, slot06, slot07, slot08]);
+            }, failSafeTimeout);
+            pbjs.que.push(function () {
+                pbjs.rp.requestBids({
+                    callback: sendAdServerRequest,
+                    gptSlotObjects: [slot01, slot02, slot04, slot05, slot06, slot07, slot08]
+                });
+            });
+        });
+    </script>
+
+    <div id="ad-60b44c3897f57" class="inline">
+        <script>
+            googletag.cmd.push(function () {
+                googletag.display([slot01]);
+            });
+        </script>
+    </div>
+
+    <div id="ad-60b44c3898196" class="inline">
+        <script>
+            googletag.cmd.push(function () {
+                googletag.display([slot06]);
+            });
+        </script>
+    </div>
+
+    <div id="ad-60b44c389823a" class="inline">
+        <script>
+            googletag.cmd.push(function () {
+                googletag.display([slot08]);
+            });
+        </script>
+    </div>
+
+    <div id="ad-60b44c38980be" class="inline">
+        <script>
+            googletag.cmd.push(function () {
+                googletag.display([slot04]);
+            });
+        </script>
+    </div>
+
+    <div id="ad-60b44c389812f" class="inline">
+        <script>
+            googletag.cmd.push(function () {
+                googletag.display([slot05]);
+            });
+        </script>
+    </div>
+
+    <!-- <div class="content">
+        <p>
+            <a href="https://www.example.com/">TRIGGER INTERSTITIAL</a>
+        </p>
+    </div> -->
+
+</body>
+
+</html>
+
+<style>
+
+.inline {
+    height: 1000px;
+}
+
+</style>
